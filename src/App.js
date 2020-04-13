@@ -5,6 +5,8 @@ import HomePage from './pages/HomePage'
 import Page1 from './pages/PageA'
 import Page2 from './pages/PageB'
 
+import content from './content/constants'
+
 
 function App() {
     return (
@@ -14,21 +16,27 @@ function App() {
                 exact
                 path='/'
                 render={(props) => (
-                    <HomePage />
+                    <HomePage
+                        content={content}
+                    />
                 )}
             />
             <Route
                 exact
                 path='/pageA'
                 render={(props) => (
-                    <Page1 />
+                    <Page1
+                        content={content}
+                    />
                 )}
             />
             <Route
                 exact
                 path='/pageB'
                 render={(props) => (
-                    <Page2 />
+                    <Page2
+                        content={content}
+                    />
                 )}
             />
         </div>
