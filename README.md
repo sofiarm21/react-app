@@ -1,3 +1,15 @@
+# Create React-App Template🌴
+
+This is a template created by Sofia Rodriguez that includes multiple features implemented:
+* Files cleanup
+* React Router
+* Airbnb eslint rules
+* Folder system Pages/Sections/Components
+* Style system theme/colors/Size
+* Content system constants/english/spanish
+* React Bootstrap installed
+* Styled Components installed
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
