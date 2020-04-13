@@ -1,6 +1,10 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 
+import HomePage from './pages/HomePage'
+import Page1 from './pages/PageA'
+import Page2 from './pages/PageB'
+
 
 function App() {
     return (
@@ -10,27 +14,21 @@ function App() {
                 exact
                 path='/'
                 render={(props) => (
-                    <p>
-                        HomePage
-                    </p>
+                    <HomePage />
                 )}
             />
             <Route
                 exact
-                path='/page1'
+                path='/pageA'
                 render={(props) => (
-                    <p>
-                        Page 1
-                    </p>
+                    <Page1 />
                 )}
             />
             <Route
                 exact
-                path='/page2'
+                path='/pageB'
                 render={(props) => (
-                    <p>
-                        Page 2
-                    </p>
+                    <Page2 />
                 )}
             />
         </div>
