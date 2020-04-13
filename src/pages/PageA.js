@@ -1,11 +1,16 @@
 import React from 'react'
 
+import Section from '../sections/Section'
+
 class PageA extends React.Component {
     render() {
         return (
-            <p>
-                Page A
-            </p>
+            <div>
+                <p>
+                    Page A
+                </p>
+                <Section section='A' />
+            </div>
         )
     }
 }
